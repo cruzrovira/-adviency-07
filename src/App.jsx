@@ -62,7 +62,7 @@ function App() {
   return (
     <Flex alignItems="center" justifyContent="center" minH="100vh" w="100%">
       <VStack background="white" boxShadow="md" p={4} w="30%">
-        <Heading>Regalos:</Heading>
+        <Heading fontFamily="'Mountains of Christmas'">Regalos:</Heading>
         <Flex as="form" gap={2} onSubmit={handlerSubmit}>
           <Input
             placeholder="Regalo"
